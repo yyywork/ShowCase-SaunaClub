@@ -1,0 +1,130 @@
+ 
+$header-color: #8b4513; 
+$light-header-color: #B38C70;
+$bg-color: #F7A368; 
+
+@import "carbon-components/scss/globals/scss/_theme.scss";
+
+ $carbon--theme: map-merge(
+  $carbon--theme--white,
+  (
+    interactive-01: $header-color,
+    active-ui: $header-color,
+    interactive-02: #171717,
+    interactive-03: #0062ff,
+    interactive-04: #88644B,
+    ui-01: #f3f3f3,
+    ui-02: #ffffff,
+    ui-03: #dcdcdc,
+    ui-04: #DDC1AE,
+    ui-05: #171717,
+    text-01: $header-color,
+    text-02: $header-color,
+    text-03: $header-color,
+    text-04: #ffffff,
+    text-05: $light-header-color,
+    icon-01: $light-header-color,
+    icon-02: #565656,
+    icon-03: #ffffff,
+    link-01: #0062ff,
+    link-02: #0043ce,
+    field-01: #ffffff,
+    field-02: #ffffff,
+    inverse-01: #ffffff,
+    inverse-02: #3d3d3d,
+    support-01: #da1e28,
+    support-02: #24a148,
+    support-03: #fdd13a,
+    support-04: #054ada,
+    inverse-support-01: #fb4b53,
+    inverse-support-02: #3dbb61,
+    inverse-support-03: #fdd13a,
+    inverse-support-04: #408bfc,
+    overlay-01: rgba(23, 23, 23, 0.5),
+    focus: $header-color,
+    hover-primary: $header-color,
+    active-primary: $bg-color,
+    hover-primary-text: #054ada,
+    hover-secondary: #4c4c4c,
+    active-secondary: #6f6f6f,
+    hover-tertiary: $header-color,
+    active-tertiary: #0530ad,
+    hover-ui: #e5e5e5,
+    selected-ui: #dcdcdc,
+    hover-selected-ui: #cacaca,
+    hover-danger: #ba1b23,
+    active-danger: #750e13,
+    hover-row: #e5e5e5,
+    visited-link: #8a3ffc,
+    disabled-01: #f3f3f3,
+    disabled-02: #bebebe,
+    disabled-03: #8c8c8c,
+    skeleton-01: #e5e5e5,
+    skeleton-02: #bebebe,
+    brand-01: #0062ff,
+    brand-02: #171717,
+    brand-03: #0062ff,
+    active-01: #bebebe,
+    hover-field: #e5e5e5, 
+
+    // label-01: 1em
+  )
+);
+@include carbon--theme();
+// @import "carbon-components/scss/globals/scss/css--font-face";
+@import "carbon-components/scss/globals/grid/grid";
+@import "carbon-components/scss/globals/scss/styles.scss";
+
+
+.bx--header{
+    background: hsla(30, 91%, 65%, 0);
+    justify-content: flex-end;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px 15px;
+    border: 0px;
+}
+a.bx--header__name, nav.bx--header__nav{
+  background: rgba(255,255,255,0.9);
+  box-shadow: 1px -1px 15px 7px rgb(255 255 255);
+  border-radius: 5px 5px 5px 5px;
+  padding: 15px;
+}
+nav.bx--header__nav{
+  border-radius: 0px 5px 5px 0px;
+}
+a.bx--header__name, a.bx--header__menu-item,a.bx--header__menu-item:hover, a.bx--header__name:hover{
+  color: $header-color;
+}
+a.bx--header__menu-item:hover{
+  background-color: rgba(255,255,255,0.2);
+}
+a.bx--header__name{
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.bx--header__nav::before{
+  background-color: $header-color;
+}
+.bx--row{
+  margin-left: 0px;
+}
+.bx--grid{
+  margin-bottom: 30vh;
+}
+a.bx--side-nav__link>.bx--side-nav__link-text{
+  color: $header-color;
+}
+.bx--header~.bx--side-nav{
+  background-color: rgba(0,0,0,0);
+}
+.bx--side-nav__item:not(.bx--side-nav__item--active)>.bx--side-nav__link:hover{
+  background-color: rgba(0,0,0,0);
+}
+@media screen and (max-width: 1056px) {
+  .bx--header{
+      justify-content: space-between;
+      padding: 0px;
+  }
+}
+
