@@ -16223,7 +16223,7 @@ var app = (function () {
     	return block;
     }
 
-    // (75:0) <Header company="Sauna Club" platformName="P" bind:isSideNavOpen>
+    // (75:0) <Header company="Sauna Club" platformName="Ying" bind:isSideNavOpen>
     function create_default_slot_31(ctx) {
     	let headernav;
     	let current;
@@ -16271,7 +16271,7 @@ var app = (function () {
     		block,
     		id: create_default_slot_31.name,
     		type: "slot",
-    		source: "(75:0) <Header company=\\\"Sauna Club\\\" platformName=\\\"P\\\" bind:isSideNavOpen>",
+    		source: "(75:0) <Header company=\\\"Sauna Club\\\" platformName=\\\"Ying\\\" bind:isSideNavOpen>",
     		ctx
     	});
 
@@ -16432,7 +16432,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "../assets/images/relax/whatissauna.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "What is sauna?");
-    			add_location(img, file, 103, 10, 4020);
+    			add_location(img, file, 103, 10, 4023);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -16463,7 +16463,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "What is Sauna?";
     			t1 = text("\n          A sauna , or sudatory, is a small room or building designed as a place to experience dry or wet heat sessions, or an establishment with one or more of these facilities. The steam and high heat make the bathers perspire. A thermometer in a sauna is typically used to measure heat, a hygrometer can be used to measure levels of humidity or steam.");
-    			add_location(h2, file, 106, 10, 4176);
+    			add_location(h2, file, 106, 10, 4179);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -16496,7 +16496,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "What is Sauna?";
     			t1 = text("\n          A sauna , or sudatory, is a small room or building designed as a place to experience dry or wet heat sessions, or an establishment with one or more of these facilities. The steam and high heat make the bathers perspire. A thermometer in a sauna is typically used to measure heat, a hygrometer can be used to measure levels of humidity or steam.");
-    			add_location(h2, file, 110, 10, 4649);
+    			add_location(h2, file, 110, 10, 4652);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -16586,9 +16586,9 @@ var app = (function () {
     			create_component(column2.$$.fragment);
     			attr_dev(a, "id", "p1");
     			attr_dev(a, "class", "anchor");
-    			add_location(a, file, 101, 8, 3927);
+    			add_location(a, file, 101, 8, 3930);
     			set_attributes(div, div_data);
-    			add_location(div, file, 100, 6, 3902);
+    			add_location(div, file, 100, 6, 3905);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -16667,7 +16667,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "How good is Sauna?";
     			t1 = text("\n        Increased frequency of sauna bathing is associated with a reduced risk of sudden cardiac death, cardiovascular disease, and all-cause mortality. Its usage is also associated with lower markers of inflammation in the blood and a reduced risk of high blood pressure. In addition, it is associated with a decreased risk of pneumonia and may temporarily relieve symptoms of the common cold.It is also associated with a reduced risk of dementia and Alzheimer's disease.");
-    			add_location(h2, file, 118, 8, 5283);
+    			add_location(h2, file, 118, 8, 5286);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -16700,7 +16700,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "../assets/images/relax/barrel.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "How good is sauna?");
-    			add_location(img, file, 122, 10, 5862);
+    			add_location(img, file, 122, 10, 5865);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -16731,7 +16731,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "How good is Sauna?";
     			t1 = text("\n          Increased frequency of sauna bathing is associated with a reduced risk of sudden cardiac death, cardiovascular disease, and all-cause mortality. Its usage is also associated with lower markers of inflammation in the blood and a reduced risk of high blood pressure. In addition, it is associated with a decreased risk of pneumonia and may temporarily relieve symptoms of the common cold.It is also associated with a reduced risk of dementia and Alzheimer's disease.");
-    			add_location(h2, file, 125, 10, 6018);
+    			add_location(h2, file, 125, 10, 6021);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -16812,7 +16812,7 @@ var app = (function () {
     			create_component(column2.$$.fragment);
     			attr_dev(a, "id", "p2");
     			attr_dev(a, "class", "anchor");
-    			add_location(a, file, 116, 6, 5181);
+    			add_location(a, file, 116, 6, 5184);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -16892,7 +16892,7 @@ var app = (function () {
     			img = element("img");
     			if (!src_url_equal(img.src, img_src_value = "../assets/images/relax/smoke.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "How to sauna?");
-    			add_location(img, file, 132, 10, 6751);
+    			add_location(img, file, 132, 10, 6754);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, img, anchor);
@@ -16923,7 +16923,7 @@ var app = (function () {
     			h2 = element("h2");
     			h2.textContent = "How to Sauna?";
     			t1 = text("\n          Increased frequency of sauna bathing is associated with a reduced risk of sudden cardiac death, cardiovascular disease, and all-cause mortality. Its usage is also associated with lower markers of inflammation in the blood and a reduced risk of high blood pressure. In addition, it is associated with a decreased risk of pneumonia and may temporarily relieve symptoms of the common cold.It is also associated with a reduced risk of dementia and Alzheimer's disease.");
-    			add_location(h2, file, 135, 10, 6901);
+    			add_location(h2, file, 135, 10, 6904);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, h2, anchor);
@@ -17198,7 +17198,7 @@ var app = (function () {
     			t2 = space();
     			create_component(tabcontent3.$$.fragment);
     			attr_dev(div, "slot", "content");
-    			add_location(div, file, 144, 12, 7673);
+    			add_location(div, file, 144, 12, 7676);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -17392,7 +17392,7 @@ var app = (function () {
     			create_component(column2.$$.fragment);
     			attr_dev(a, "id", "p3");
     			attr_dev(a, "class", "anchor");
-    			add_location(a, file, 130, 6, 6658);
+    			add_location(a, file, 130, 6, 6661);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -18024,7 +18024,7 @@ var app = (function () {
     			t1 = space();
     			create_component(form.$$.fragment);
     			attr_dev(div, "class", "formTitle");
-    			add_location(div, file, 165, 8, 9805);
+    			add_location(div, file, 165, 8, 9808);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -18093,7 +18093,7 @@ var app = (function () {
     			create_component(column.$$.fragment);
     			attr_dev(a, "id", "p4");
     			attr_dev(a, "class", "anchor");
-    			add_location(a, file, 163, 6, 9729);
+    			add_location(a, file, 163, 6, 9732);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, a, anchor);
@@ -18297,7 +18297,7 @@ var app = (function () {
     		c: function create() {
     			p = element("p");
     			create_component(attr_1.$$.fragment);
-    			add_location(p, file, 194, 8, 11126);
+    			add_location(p, file, 194, 8, 11129);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, p, anchor);
@@ -18373,7 +18373,7 @@ var app = (function () {
 
     	let header_props = {
     		company: "Sauna Club",
-    		platformName: "P",
+    		platformName: "Ying",
     		$$slots: { default: [create_default_slot_31] },
     		$$scope: { ctx }
     	};
@@ -18450,16 +18450,16 @@ var app = (function () {
     			div2 = element("div");
     			div2.textContent = "Copyright © 2021 Ying";
     			attr_dev(div0, "id", "floatingText");
-    			add_location(div0, file, 93, 2, 3633);
+    			add_location(div0, file, 93, 2, 3636);
     			attr_dev(div1, "id", "banner");
-    			add_location(div1, file, 91, 0, 3601);
-    			add_location(div2, file, 198, 6, 11185);
+    			add_location(div1, file, 91, 0, 3604);
+    			add_location(div2, file, 198, 6, 11188);
     			set_style(div3, "display", "flex");
     			set_style(div3, "justify-content", "space-between");
-    			add_location(div3, file, 192, 4, 11003);
+    			add_location(div3, file, 192, 4, 11006);
     			attr_dev(div4, "id", "contentContainer");
-    			add_location(div4, file, 95, 0, 3675);
-    			add_location(main, file, 90, 0, 3594);
+    			add_location(div4, file, 95, 0, 3678);
+    			add_location(main, file, 90, 0, 3597);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");

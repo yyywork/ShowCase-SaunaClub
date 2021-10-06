@@ -70,7 +70,7 @@ $: p4Top = getTop('p4',y);
 
 <svelte:window bind:scrollY={y} bind:innerHeight={totalH} bind:innerWidth={totalW}/>
 
-<Header company="Sauna Club" platformName="P" bind:isSideNavOpen>
+<Header company="Sauna Club" platformName="Ying" bind:isSideNavOpen>
   <HeaderNav>
     <HeaderNavItem href="#p1" text="Introduction" />
     <HeaderNavItem href="#p2" text="Advantages" />
