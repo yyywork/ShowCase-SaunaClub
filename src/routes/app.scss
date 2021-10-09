@@ -71,9 +71,10 @@ $bg-color: #F7A368;
   )
 );
 @include carbon--theme();
-// @import "carbon-components/scss/globals/scss/css--font-face";
-// @import "carbon-components/scss/globals/grid/grid";
-@import "carbon-components/scss/globals/scss/styles.scss";
+@import "carbon-components/scss/globals/scss/css--font-face";
+@import "carbon-components/scss/globals/grid/grid";
+@import "carbon-components/css/carbon-components";
+// @import "carbon-components/scss/globals/scss/styles.scss";
 
 
 .bx--header{
@@ -84,7 +85,7 @@ $bg-color: #F7A368;
     padding: 15px 15px;
     border: 0px;
 }
-a.bx--header__name, nav.bx--header__nav{
+a.bx--header__name, nav.bx--header__nav, #footer{
   background: rgba(255,255,255,0.9);
   box-shadow: 1px -1px 15px 7px rgb(255 255 255);
   border-radius: 5px 5px 5px 5px;

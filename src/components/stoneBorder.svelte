@@ -28,6 +28,6 @@ $: totalStone = Math.floor(innerWidth/40);
   background-position-y: var(--stoneSpacing-y);
   width: 40px;
   height: 32px;
-  background-image: url(../assets/images/relax/stone.png);
+  background-image: url(/assets/images/relax/stone.png);
 }
 </style>
