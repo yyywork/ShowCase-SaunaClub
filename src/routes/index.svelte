@@ -13,6 +13,7 @@
       SideNav, SideNavItems,
       SideNavLink, Tooltip
     } from "carbon-components-svelte";
+  import Meta from 'svelte-meta';
   // import "carbon-components-svelte/css/white.css";
   import Steam from "../components/steam.svelte";
   import Attr from "../attr.svelte";
@@ -55,10 +56,6 @@
       result = Math.round(result);
       if(result === 0 || result === -0)
         pStop[which] = true
-      if(which === 'p4'){
-        console.log('result', result,'innerHeight',innerHeight,'pTop',pTop,'y',y,'docH',docH,(result === 0 || result === -0),pStop[which])
-        console.log(pTop/innerHeight * 100 - 20)
-      }
       return result+'%';
     }
     getTop('p1',y);
@@ -81,7 +78,11 @@
   $: p4Top = getTop('p4',y);
   
   </script>
-  
+  <Meta
+    title="Sauna Club - Ying"
+    description="An immersive sauna website, enjoying online sauna experience"
+    image="/favicon.png"
+  />
   <svelte:window bind:scrollY={y} bind:outerHeight={y2} bind:innerHeight={innerHeight}/>
   <div bind:offsetHeight={docH}>
     <Header company="Sauna Club" platformName="Ying" bind:isSideNavOpen>
@@ -103,12 +104,12 @@
     <main>
     <div id="banner">
       <Steam />
-      <div id="floatingText">Sauna</div>
+      <h1 id="floatingText">Sauna</h1>
     </div>
     <div id="contentContainer">
       <Stone />
       <Steam />
-      <Grid noGutter={false} style="overflow-x: hidden;">
+      <Grid noGutter={false}>
         <Row as let:props class="twoParts" style="--odd-pos:{getPos(p1Top,'p1')};--odd-color:{getColor(p1Top,'p1')};">
           <div {...props}>
             <a id="p1" class="anchor" />

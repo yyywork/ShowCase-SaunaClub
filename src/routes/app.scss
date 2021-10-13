@@ -71,10 +71,10 @@ $bg-color: #F7A368;
   )
 );
 @include carbon--theme();
-@import "carbon-components/scss/globals/scss/css--font-face";
-@import "carbon-components/scss/globals/grid/grid";
-@import "carbon-components/css/carbon-components";
-// @import "carbon-components/scss/globals/scss/styles.scss";
+// @import "carbon-components/scss/globals/scss/css--font-face";
+// @import "carbon-components/scss/globals/grid/grid";
+// @import "carbon-components/css/carbon-components";
+@import "carbon-components/scss/globals/scss/styles.scss";
 
 
 .bx--header{
@@ -112,15 +112,20 @@ a.bx--header__name{
 }
 .bx--grid{
   margin-bottom: 30vh;
+  overflow-x: hidden;
 }
 a.bx--side-nav__link>.bx--side-nav__link-text{
   color: $header-color;
+}
+.bx--side-nav__item:not(.bx--side-nav__item--active)>.bx--side-nav__link:hover>span{
+  color: $light-header-color;
 }
 .bx--header~.bx--side-nav{
   background-color: rgba(0,0,0,0);
 }
 .bx--side-nav__item:not(.bx--side-nav__item--active)>.bx--side-nav__link:hover{
   background-color: rgba(0,0,0,0);
+  backdrop-filter: blur(1px);
 }
 @media screen and (max-width: 1056px) {
   .bx--header{
